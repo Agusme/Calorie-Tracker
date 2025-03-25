@@ -1,5 +1,5 @@
 import { Activity } from "../types";
-
+/* ACA SE DEFINEN LAS ACCIONES */
 /* va ser un type que describe lo que va a pasar en el reducer */
 /*  */
 export type ActivityActions =
