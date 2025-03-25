@@ -1,54 +1,46 @@
-# React + TypeScript + Vite
+# CALORIES TRACKER 🍎🏃🏽‍♀️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de Contador de Calorías que te permite llevar un registro de las calorías que consumes a lo largo del día. Está construido con Vite para la configuración rápida y eficiente del proyecto, y utiliza tecnologías modernas para el desarrollo de aplicaciones web.
 
-Currently, two official plugins are available:
+## DEMO
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Puedes ver el proyecto en vivo aquí: [Ver el Proyecto](https://caloriestrackerbyagus.netlify.app/).
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Vite**: para la configuración del proyecto y optimización.
+- **React**: para la creación de la interfaz de usuario.
+- **Tailwind CSS**: para la parte de diseño y estilo.
+- **Local Storage**: para almacenar las entradas de calorías del usuario (si es que estás utilizando almacenamiento local).
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Instalación
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clona este repositorio:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+   ```bash
+   git clone https://github.com/Agusme/Calorie-Tracker.git
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+2. Accede al directorio del proyecto:
+   ```bash
+   cd calories-tracker
+
+3. Instala las dependencias:
+   ```bash
+   npm install     
+
+4. Ejecuta el proyecto
+   ```bash
+    npm run dev
+
+## AUTORA:
+- Agustina Mena 👩🏽‍💻 [Github](https://github.com/Agusme) - [LinkedIn](https://www.linkedin.com/in/agustina-mena-169298204/)
+
+
+
+
+
+
+
+
+
+
